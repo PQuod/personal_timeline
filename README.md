@@ -12,7 +12,6 @@ This web page, in its first version at least, is built with Jekyll and is based 
 
 ## 1st version features
 - [ ] Bilingual
-*To consider*
 - [ ] Light/dark theme (?)
 
 ## Steps to come
