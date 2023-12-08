@@ -1,0 +1,11 @@
+<header>
+{% assign pages = site.pages | where: "lang", page.lang | sort: "order" %}
+  {% if page.lang == 'fr' %}
+    <a href="{{ site.baseurl }}/{{ page.lang}}" class="no-decoration">
+  {% else %}
+    <a href="{{ site.baseurl }}" class="no-decoration">
+  {% endif %}
+    <h1>Lucie Desaubliaux</h1>
+    </a>
+    <p>{{ site.data.trad['header_ss-titre'][page.lang]}}<span class="colored">*</span></p>
+</header>

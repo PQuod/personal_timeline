@@ -1,0 +1,14 @@
+<div class="lang_nav">
+    {% assign posts = site.posts | where: "lang-ref", page.lang-ref | sort:"lang" %}
+      {% assign language = page.lang %}
+    {% if posts.size == 0 %}
+      {% assign posts = site.pages | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+    {% endif %}
+    {% if posts.size > 1 %}
+      <div class="toggle-lang">
+        {% for post in posts %}
+          <a class="{{post.lang}} {% if post.lang == language %}active{% endif %}" href="{{ site.baseurl }}{{ post.url }}">{{post.lang}}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+</div>

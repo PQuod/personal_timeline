@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+  <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <title>{{site.title}}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{'/assets/css/style.css' | relative_url }}">
+    {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
+    {% if posts.size ==0 %}
+      {% assign posts=site.pages | where: "lang-ref", page.lang-ref | sort: 'lang' %}
+    {% endif %}
+    {% if posts.size > 1 %}
+      {% for post in posts %}
+        <link rel="alternate" hreflang="{{ post.lang }}" href="{{ site.baseurl }}{{ post.url }}"/>
+      {% endfor %}
+    {% endif %}
+  </head>
+  <body>

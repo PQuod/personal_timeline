@@ -1,0 +1,11 @@
+{% include head.html %}
+{% include lang_nav.html %}
+{% include header.html %}
+<main>
+<div class="main_left-col">
+    <div class="addendum">{{ site.data.trad['asterisque'][page.lang] | markdownify }}</div>
+</div>
+    {{ content | markdownify }}
+<div class="main_right-col"></div>
+</main>
+{% include footer.html %}

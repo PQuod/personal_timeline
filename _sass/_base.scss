@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,700;1,7..72,400;1,7..72,700&display=swap');
+
+:root{
+  --line-height:2em;
+  --mc:#f9f9f9;
+  --cc1:#2c2c2c;
+  --cc2:#ff0038;
+  --font:'Literata', serif;
+  --f-sanserif:monospace;
+  --border: 1px solid var(--cc1);
+}
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body {
+  background: var(--mc);
+  color: var(--cc1);
+  font-family:var(--font);
+  margin:2em;
+}
+
+a{
+  text-decoration:none;
+  color:var(--cc1);
+  cursor:pointer;
+}
+
+a:after{
+  content:'🡦';
+  color:var(--cc2);
+}
+
+a:hover{
+  color:var(--cc2);
+}
+
+a:hover:after{
+  content:'🡥';
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-weight:normal;
+  text-transform:uppercase;
+  line-height: var(--line-height);
+}
+
+h1{
+  font-size:1.4em;
+}
+
+h2{
+  font-size:1.2em;
+}
+
+h3{
+  font-size:1em;
+}
+
+p, li {
+  font-size:1em;
+  line-height: var(--line-height);
+  hyphens:none;
+}
+
+p, ul{
+  margin-bottom:var(--line-height);
+}
+
+ul{
+  li{
+    list-style:none;
+    padding-left:1em;
+  }
+}
+
+.task-list-item-checkbox{
+  margin-right: 1em;
+}
+
+strong{
+  font-weight:normal;
+  color:var(--cc2);
+}
+
+img{
+  width:100%;
+}
+
+.colored{
+  color:var(--cc2);
+}
+
+.footnote, .reversefootnote{
+  color:var(--cc2);
+  font-family:var(--f-sanserif);
+  &:after{
+    content:'';
+  }
+  &:hover:after{
+    content:'';
+  }
+}
+
+.footnotes{
+  border-top:1px dotted var(--cc1);
+  padding: var(--line-height) 2.5em 0 2.5em;
+  font-size:0.8em;
+  ol{
+    counter-reset:notescounter;
+    li{
+      list-style: none;
+      counter-increment: notescounter;
+      position:relative;
+      display:block;
+      &:before{
+        content: counter(notescounter);
+        font-family:var(--f-sanserif);
+        color:var(--cc2);
+        top:-0.15em;
+        left:-0.8em;
+        font-size:2em;
+        position:absolute;
+      }
+    }
+  }
+}
