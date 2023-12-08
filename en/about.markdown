@@ -40,8 +40,6 @@ This website, in its first version at least, is built with Jekyll and is based o
 - [ ] Build a handmade CMS to post --> Keep working on [this one](https://github.com/PQuod/JStoMDJekyllPortfolio)
 
 # Where else to find me 
-[Github](https://github.com/PQuod/)
-
-[Instagram](https://www.instagram.com/lucie_desaubliaux/)
-
-Mail : l.desaubliaux_at_gmail.com
+- [Github](https://github.com/PQuod/)
+- [Instagram](https://www.instagram.com/lucie_desaubliaux/)
+- Mail : l.desaubliaux_at_gmail.com

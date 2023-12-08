@@ -41,8 +41,6 @@ Ce site, au moins pour sa première version, est fait avec Jekyll. Son design et
 - [ ] Créer un CMS maison pour poster dans la timeline --> Continuer à travailler sur [celui-là](https://github.com/PQuod/JStoMDJekyllPortfolio)
 
 # Où me trouver sinon
-[Github](https://github.com/PQuod/)
-
-[Instagram](https://www.instagram.com/lucie_desaubliaux/)
-
-Mail : l.desaubliaux_at_gmail.com
+- [Github](https://github.com/PQuod/)
+- [Instagram](https://www.instagram.com/lucie_desaubliaux/)
+- Mail : l.desaubliaux_at_gmail.com
