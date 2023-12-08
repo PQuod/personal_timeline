@@ -2,7 +2,7 @@ title: Lucie Desaubliaux
 email: l.desaubliaux@gmail.com
 description: >- 
   I'm Lucie Desaubliaux, a french artist, writer and developer. This site is the first version of my personal page regrouping all my code and art related projects. It is supposed to be a public WIP, so this page will be built each time I work on it, whichever state of progress it is in.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "https://pquod.github.io/personal_timeline/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  PQuod
 
