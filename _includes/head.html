@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, intial-scale=1">
     <title>{{site.title}}</title>
     <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="{{'/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{'assets/css/style.css' | relative_url }}">
     {% assign posts=site.posts | where:"lang-ref", page.lang-ref | sort: 'lang' %}
     {% if posts.size ==0 %}
       {% assign posts=site.pages | where: "lang-ref", page.lang-ref | sort: 'lang' %}
