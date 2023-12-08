@@ -35,7 +35,7 @@ This website, in its first version at least, is built with Jekyll and is based o
 - [ ] Figure out if I'll add images or not
 
 ## Further steps to come
-- [ ] Integrate my art website (totally remastered) --> [Current version](www.luciedesaubliaux.fr)
+- [ ] Totally remaster my art webiste and integrate it here --> [Current version](www.luciedesaubliaux.fr)
 - [ ] Integrate my webdev portfolio --> [Current version](https://pquod.github.io/dev_portfolio/)
 - [ ] Build a handmade CMS to post --> Keep working on [this one](https://github.com/PQuod/JStoMDJekyllPortfolio)
 
