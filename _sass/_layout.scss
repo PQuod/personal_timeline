@@ -4,6 +4,8 @@ header{
 }
 
 .toggle-lang{  
+    position:fixed;
+    top:2em;
     a{
       display:inline-block;
       font-family:var(--f-sanserif);
