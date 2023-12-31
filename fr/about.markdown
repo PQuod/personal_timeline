@@ -26,7 +26,8 @@ Ce site, au moins pour sa première version, est fait avec Jekyll. Son design et
 - [x] Bilingue
 - [ ] Ajouter des filtres pour faire apparaître / disparaître les différentes catégories (Art / Littérature / Code)
 - [ ] Thème jour/nuit (?)
-- [ ] Ajouter une démarcation entre le future et le passé
+- [ ] Ajouter une démarcation entre le futur et le passé
+- [ ] Traiter différemment événements ponctuels / qui durent dans le temps
 - [ ] Versions smartphone & tablette
 
 ## À faire
