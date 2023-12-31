@@ -26,6 +26,7 @@ This website, in its first version at least, is built with Jekyll and is based o
 - [ ] Add filters to toggle categories
 - [ ] Light/dark theme (?)
 - [ ] Demarcation between Future and Past
+- [ ] How to treat differently one occurence events / works in progress
 - [ ] Phone and tablet versions
 
 ## Todo
