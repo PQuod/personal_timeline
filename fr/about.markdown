@@ -15,7 +15,7 @@ Ce site est la première version d'un espace qui regrouperait tous les travaux a
 
 C'est censé être un chantier public, donc la page construite d'après ce répertoire sera délibérément mise en ligne après chaque session de travail, quel que soit l'état d'avancement de son contenu ou de son aspect graphique et technique. Ci-dessous sont explicitées les étapes de son avancement.
 
-**LOG**
+## LOG
 
 *Premier déploiement* : 8 décembre 2023 &middot; Premiers posts avec les activités du dernier mois &middot; bases des principes de design, encore du travail à faire pour l'aspect graphique de la chronologie principale. Mais au moins, c'est lisible.
 
