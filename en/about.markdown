@@ -14,7 +14,7 @@ This page is a personal page regrouping all my code and art related projects.
 This page is a first version for a website that would regroup my artistic and development work (that I kept appart till now for reasons I'm not sure about anymore).
 It is supposed to be a public WIP, so the page built from this repo will deliberately be online whichever state of progress its contents or graphic and technic aspects are in. You'll find the successive steps it went or will go through further down.
 
-**LOG**
+## LOG
 
 *First launch* : december 8th, 2023 &middot; First posts with last month's activities &middot; beginning of design principles, still work to do for the graphic design of the main timeline. But at least it's readable.
 
