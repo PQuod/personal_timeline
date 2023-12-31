@@ -7,7 +7,7 @@ layout: default
     {{ nowyear }}
     {% for post in posts %}
     {% capture postyear %}{{post.date | date: "%Y"}}{% endcapture %}
-    {{ postyear }}
+    {% if postyear != nowyear %}{{ postyear }}{% endif %}
     <div class="post_header"><span class="colored">{{ post.date | date: "%d·%m·%Y"}}</span> &#8967; <span class="colored">{{ post.title }}</span></div>{{ post.content | markdownify }}
     <div class="post_footer">{{ post.notes }}</div>
     {% endfor %}
