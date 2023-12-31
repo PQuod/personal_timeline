@@ -2,5 +2,5 @@ header_ss-titre:
   fr: "J'écris des livres, j'installe/performe, je code."
   en: "I write books, make installations/performances, and code."
 asterisque:
-  fr: "Ce site est en construction. Pour en savoir plus : [visitez à propos](fr/about.html)"
-  en: "This site is under construction. To know more: [visit about](en/about.html)"
+  fr: "Ce site est en construction. Pour en savoir plus : [visitez à propos](about.html)"
+  en: "This site is under construction. To know more: [visit about](about.html)"
