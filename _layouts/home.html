@@ -3,11 +3,12 @@ layout: default
 ---
 <div class="main_mid-col">
     {% assign posts = site.posts | where: "lang", page.lang %}
-    {% capture nowyear %}{{ 'now' | date: "%Y"}}{% endcapture %}
-    {{ nowyear }}
     {% for post in posts %}
-    {% capture postyear %}{{post.date | date: "%Y"}}{% endcapture %}
-    {% if postyear != nowyear %}{{ postyear }}{% endif %}
+    {% assign currentdate = post.date | date: "%Y" %}
+    {% if currentdate != date %}
+    {{ currentdate }}
+    {% assign date = currentdate %}
+    {% endif %}
     <div class="post_header"><span class="colored">{{ post.date | date: "%d·%m·%Y"}}</span> &#8967; <span class="colored">{{ post.title }}</span></div>{{ post.content | markdownify }}
     <div class="post_footer">{{ post.notes }}</div>
     {% endfor %}
