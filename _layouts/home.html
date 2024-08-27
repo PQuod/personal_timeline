@@ -6,7 +6,7 @@ layout: default
     {% for post in posts %}
     {% assign currentdate = post.date | date: "%Y" %}
     {% if currentdate != date %}
-    {{ currentdate }}
+    <h2>{{ currentdate }}</h2>
     {% assign date = currentdate %}
     {% endif %}
     <div class="post_header"><span class="colored">{{ post.date | date: "%d·%m·%Y"}}</span> &#8967; <span class="colored">{{ post.title }}</span></div>{{ post.content | markdownify }}
