@@ -43,6 +43,10 @@ main{
     color: var(--cc2);
 }
 
+.year:not(:first-of-type){
+    padding-top:calc(var(--line-height)*2);
+}
+
 .main_mid-col > *{
     display: inline-block;
     margin:0;
