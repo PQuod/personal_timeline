@@ -38,6 +38,11 @@ main{
     }
 }
 
+.year {
+    font-family:var(--f-sanserif);
+    color: var(--cc2);
+}
+
 .main_mid-col > *{
     display: inline-block;
     margin:0;
